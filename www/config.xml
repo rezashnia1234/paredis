@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ir.smgroup.festival"
+        id        = "ir.smgroup.pardis"
         version   = "1.0.0">
 		
 		
-    <name>expo</name>
-    <description>festival</description>
+    <name>pardis</name>
+    <description>pardis</description>
     <author href="http://smgroup.ir" email="info@smgroup.ir">Sorush Mehr Rezvan</author>
 		
     <!--
