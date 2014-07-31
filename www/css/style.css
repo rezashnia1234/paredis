@@ -392,8 +392,8 @@ div.content {
 }
 div.content.inactive {
 	cursor: pointer;
-	-webkit-transform: translate3d(160px, 0px, 0px) scale(0.7);
-	-moz-transform: translate3d(160px, 0px, 0px) scale(0.7);
-	-ms-transform: translate3d(160px, 0px, 0px) scale(0.7);
+	-webkit-transform: translate3d(-160px, 0px, 0px) scale(0.7);
+	-moz-transform: translate3d(-160px, 0px, 0px) scale(0.7);
+	-ms-transform: translate3d(-160px, 0px, 0px) scale(0.7);
 	transform: translate3d(-160px, 0px, 0px) scale(0.7);
 }
