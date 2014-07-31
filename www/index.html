@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>پردیسبان</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="css/photoswipe/photoswipe.css" />
+    <link rel="stylesheet" type="text/css" href="font/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="screen">
+		<div class="menu">
+			<ul class="ulMenu">
+				<li><a href="javascript:menu('1');" ><i class="fa fa-home"></i><span>صفحه اصلی</span></a></li>
+				<li><a href="javascript:menu('2');"><i class="fa fa-info"></i><span>آخرین اخبار</span></a></li>
+				<li><a href="javascript:menu('3');"><i class="fa fa-bar-chart-o"></i><span>قیمت سهام</span></a></li>
+				<li><a href="javascript:menu('4');"><i class="fa fa-picture-o"></i><span>گالری تصاویر</span></a></li>
+				<li><a href="javascript:menu('5');"><i class="fa fa-map-marker"></i><span>تماس با ما</span></a></li>
+			</ul>
+		</div>
+		<div class="content ">
+			<div id="body">
+				<div class="headerBack">
+					<div id="header" class="borderRadius">
+						<a class="button" href="#"><div class="btn"><i class="fa fa-reorder"></i></div></a>
+						<h1 class="sectionTitle"></h1>
+						<a id="location" style="display:none;" href="javascript:alert('Only the button')">
+							<div class="location"><i id="posIcon" class="fa fa-location-arrow"></i></div>
+						</a>
+					</div>
+				</div>
+				<div id="wrapper">
+					<div class="scroller">
+						<div id="sectionContent"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/fastclick.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/photoswipe/klass.min.js"></script>
+	<script type="text/javascript" src="js/photoswipe/code.photoswipe.jquery-3.0.5.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+	    app.initialize();
+	</script>
+	
+  <!-- Flot -->
+  <script src="js/flot/jquery.flot.min.js"></script>
+  <script src="js/flot/jquery.flot.tooltip.min.js"></script>
+  <script src="js/flot/jquery.flot.resize.js"></script>
+  <script src="js/flot/jquery.flot.orderBars.js"></script>
+  <script src="js/flot/jquery.flot.pie.min.js"></script>
+  <script src="js/flot/jquery.flot.grow.js"></script>
+</body>
+</html>

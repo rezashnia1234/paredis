@@ -1,0 +1,19 @@
+#news-box {
+  background: none repeat scroll 0 0 #f3f3f3;
+  border-radius: 5px;
+  color: #6b6b6b;
+  direction: rtl;
+  margin-bottom: 8px;
+  padding: 12px;
+}
+#news-date {
+  float: left;
+}
+#news-title {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+}
+#news-text {
+  text-align:justify;
+}
