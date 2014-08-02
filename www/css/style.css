@@ -153,6 +153,8 @@ opacity: 0.5;
 	margin: 20px 0px;
 	border-radius: 5px;
 	direction:rtl;
+	text-align:justify;
+	line-height:180%;
 }
 
 .greyBackground{
@@ -277,7 +279,7 @@ div#loading{
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	font-family: Tahoma;
-	background-color: #3fb8e8;
+	background-color: #fe4d49;
 	/*box-shadow: 0px 3px 0px 0px #3293ba;*/
 }
 .flatBtn:active {
@@ -396,4 +398,12 @@ div.content.inactive {
 	-moz-transform: translate3d(-160px, 0px, 0px) scale(0.7);
 	-ms-transform: translate3d(-160px, 0px, 0px) scale(0.7);
 	transform: translate3d(-160px, 0px, 0px) scale(0.7);
+}
+#title{
+	color:#535353;
+	font-size:14px;
+	direction:rtl;
+	text-align:right;
+	margin-bottom:18px;
+	margin-top:18px;
 }

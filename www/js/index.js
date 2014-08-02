@@ -1,6 +1,11 @@
 window.addEventListener('load', function() {
     FastClick.attach(document.body);
 }, false);
+function loadURL(url){
+	console.log('SMGROUP ::::::::::::::::::::::::::::::::::::    loadURL click : ' + url);
+	window.open(url, '_system', 'location=yes');
+	return false;
+}
 
 var myScroll, wrapper, $sectionTitle, $btnLocation, activeLi = 1;
 
@@ -166,7 +171,7 @@ function menu(option){
 		var myPhotoSwipe = Code.PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), { enableMouseWheel: false , enableKeyboard: false } );
 	}
 	else if(option == 5){
-		setTitle('تماس با ما');
+		setTitle('تماس با مـــــا');
 		myScroll.disable();
 		mapObject.init();
 	}
@@ -182,6 +187,7 @@ function setTitle(title){
 }
 
 //Map
+/*
 var map, markers = [], openInfoWindow, bounds = new google.maps.LatLngBounds();
 
 var mapObject = {
@@ -244,7 +250,7 @@ var mapObject = {
 	}
 
 };
-
+*/
 $( window ).resize(function() {
   $('#wrapper').css('height',window.innerHeight-50);
 });
